@@ -1,5 +1,6 @@
-conFusion/bower_components/
 */dist/*
 */node_modules/*
 */.tmp/*
 .DS_Store
+*/bower_components/*
+*/bower_components/angular/*
