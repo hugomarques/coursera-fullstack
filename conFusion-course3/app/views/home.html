@@ -9,16 +9,16 @@
 				<ul class="media-list">
                     <li class="media">
                          <div class="media-left media-middle">
-                            <a ui-sref="app.dishdetails({id: featuredDish._id})">
-                                <img class="media-object img-thumbnail" ng-src={{featuredDish.image}} alt="Uthappizza">
+                            <a ui-sref="app.dishdetails({id: dish.id})">
+                                <img class="media-object img-thumbnail" ng-src={{dish.image}} alt="Uthappizza">
                             </a>
                         </div>
                         <div class="media-body">
-                            <h2 class="media-heading">{{featuredDish.name}}
-                             <span class="label label-danger">{{featuredDish.label}}</span>
-                             <span class="badge">{{featuredDish.price | currency}}</span></h2>
+                            <h2 class="media-heading">{{dish.name}}
+                             <span class="label label-danger">{{dish.label}}</span>
+                             <span class="badge">{{dish.price | currency}}</span></h2>
                              <p>
-                                 {{featuredDish.description}}
+                                 {{dish.description}}
                              </p>
                         </div>
                     </li>
